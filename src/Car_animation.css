@@ -1,0 +1,32 @@
+.Car-icon{
+    height: 15vmin;
+    pointer-events: none;
+}
+
+.CarIconButton{
+    margin-top: 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Car-icon {
+      animation: icon_frames infinite 15s linear;
+    }
+  }
+
+@keyframes icon_frames {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(180deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-180deg)
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
