@@ -21,7 +21,7 @@ function Car(props){
 
     return(
         <div className="imgNButton">
-            <img src={imageName} className="Car-icon" /> <br/>
+            <img src={imageName} className="Car-icon" alt="Car image"/> <br/>
             <button onClick={changeImage} className="CarIconButton">Change Image</button>
         </div>
     );

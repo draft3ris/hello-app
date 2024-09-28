@@ -21,7 +21,7 @@ function Star_button(props){
 
     return(
         <div className="imgNButton">
-            <img src={imageName} className="various-icon" /> <br/>
+            <img src={imageName} className="various-icon" alt=""/> <br/>
             <button onClick={changeImage}>Change Theme</button>
         </div>
     );
